@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Practica1</string>
+    <string name="text_nombre">Ingrese su nombre...</string>
+    <string name="text_apellido">Ingrese su apellido...</string>
+</resources>
