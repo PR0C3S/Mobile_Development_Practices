@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61be9274-9ab4-499d-a452-aee6f07a0a74" name="Changes" comment="Proyecto 1 - Terminado 100%">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-    </list>
+    <list default="true" id="61be9274-9ab4-499d-a452-aee6f07a0a74" name="Changes" comment="Proyecto 1 - Terminado 100% rotacion desactivada" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665621303785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Proyecto 1 - Terminado 100% rotacion desactivada">
+      <created>1666148582837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666148582837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Proyecto 1 - Terminado 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto 1 - Terminado 100%" />
+    <MESSAGE value="Proyecto 1 - Terminado 100% rotacion desactivada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto 1 - Terminado 100% rotacion desactivada" />
   </component>
 </project>

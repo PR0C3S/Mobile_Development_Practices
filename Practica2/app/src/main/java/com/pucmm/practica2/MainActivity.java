@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     public static final String LOCATION_PERMISION = Manifest.permission.ACCESS_FINE_LOCATION;
     public static final String PHONE_PERMISION = Manifest.permission.CALL_PHONE;
     public static final String CONTACTS_PERMISION = Manifest.permission.READ_CONTACTS;
-    //public static final String LOCATION_PERMISION2 = Manifest.permission.ACCESS_FINE_LOCATION;
 
     private ActivityMainBinding binding;
 
