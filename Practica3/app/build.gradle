@@ -57,8 +57,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1"
     //GSON TO JSON
     implementation 'com.google.code.gson:gson:2.8.5'
-
-    //image picker
-    implementation 'com.github.Drjacky:ImagePicker:2.3.20'
+    //Picasso for image
+    implementation 'com.squareup.picasso:picasso:2.8'
 
 }

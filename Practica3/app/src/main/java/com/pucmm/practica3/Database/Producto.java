@@ -17,6 +17,21 @@ public class Producto {
     private String nombre ="";
     private String descripcion="";
     private Double precio=0d;
+    private String fotoLocation = "";
+
+
+    public Producto()
+    {
+
+    }
+
+    public Producto(Long id, String nombre, String descripcion, Double precio, String fotoLocation) {
+        this.id = id;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.fotoLocation = fotoLocation;
+    }
 
     public Long getId() {
         return id;
@@ -24,17 +39,6 @@ public class Producto {
 
     public void setId(Long id) {
         this.id = id;
-    }
-    public Producto()
-    {
-
-    }
-
-    public Producto(Long id, String nombre, String descripcion, Double precio) {
-        this.id = id;
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.precio = precio;
     }
 
     public String getNombre() {
@@ -59,5 +63,13 @@ public class Producto {
 
     public void setPrecio(Double precio) {
         this.precio = precio;
+    }
+
+    public String getFotoLocation() {
+        return fotoLocation;
+    }
+
+    public void setFotoLocation(String fotoLocation) {
+        this.fotoLocation = fotoLocation;
     }
 }

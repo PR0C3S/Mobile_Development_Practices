@@ -39,12 +39,6 @@ public class FirstFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        //Bundle bundle = getArguments();
-        String msg = "";//bundle.getString("msg","");
-        if(!msg.equals(""))
-        {
-            Toast.makeText(getContext(),msg,Toast.LENGTH_SHORT).show();
-        }
         productoViewModel = new ViewModelProvider(this).get(ProductoViewModel.class);
         RecyclerView recyclerView = binding.mainReciclewView;
         recyclerView.setHasFixedSize(true);

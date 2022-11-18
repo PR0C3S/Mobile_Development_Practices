@@ -12,7 +12,7 @@ import com.pucmm.practica3.Database.ProductoDao;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Database(entities = {Producto.class}, version = 4)
+@Database(entities = {Producto.class}, version = 5)
 public abstract class AppDatabase extends RoomDatabase {
 
     private static volatile AppDatabase INSTANCE;
